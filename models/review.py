@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """ Review module for the HBNB project """
 from sqlalchemy import Column, Integer, String, ForeignKey
 from models.base_model import BaseModel, Base
