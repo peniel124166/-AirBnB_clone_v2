@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-""" State Module for HBNB project """
+"""This module defines a class User"""
 from models.base_model import BaseModel
 
 
-class State(BaseModel):
-    """ State class """
-    name = ""
+class User(BaseModel):
+    """This class defines a user by various attributes"""
+    email = ''
+    password = ''
+    first_name = ''
+    last_name = ''
